@@ -38,3 +38,16 @@ We’ll use bash in class. You can switch to Bash in two ways. The first is simp
 A more permanent option is to allow The Terminal to set bash automatically: Bring up The Terminal’s preferences and go to `General | Shells open with `, then type `/bin/bash`.
 
 ---
+
+## Verify Software
+We now need to verify that `javac`, the Java compiler, `java`, the Java application launcher, and Git have been installed.
+
+1. Launch The Terminal
+2. Type `javac --version`. The Terminal should respond with something akin to `javac 18.0.1.1`.
+3. Type `java --version`. The Terminal should respond with something akin to the earlier message, with some extra info regarding Java’s runtime environment and HotSpot server.
+4. Type `git --version`. The Terminal should respond with `git version` followed by a SemVer number.
+
+---
+
+## Conclusion
+All the macOS-based software you need for CS 114, *Fundamentals of Computing I*, is now installed on your Mac. Restart.
