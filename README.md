@@ -1,5 +1,7 @@
 # Software Installer
-This repo contains a Bash script that automates installation of macOS-based software used by any number of courses I teach at UHart. Each class has its own branch. Thus, inspect the branch list for the course specific to you.
+## CS 114, Fundamentals of Computing I
+
+This repo contains a Bash script that automates installation of macOS-based software used by any number of courses I teach at UHart. Each class has its own branch. (This branch belongs to CS 114, Fundamentals of Computing I.) Thus, inspect the branch list for the course specific to you.
 
 *Installation time*: ~15 minutes
 
