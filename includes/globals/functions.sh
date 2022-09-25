@@ -28,8 +28,8 @@ function pause () {
 # Required by the “print_msg” function below.
 #
 function print_error_msg () {
-    printf "%s \n" "${BG_RED}${WHITE}${BOLD} ERROR: In addition to ${RESET}${BG_WHITE}${BLACK} $1 ${RESET}${BG_RED}${WHITE}${BOLD}, the string you would like  ${RESET}${BG_WHITE}${BLACK} ${FUNCNAME[0]} ${RESET}${BG_RED}${WHITE}${BOLD} to render is required as the second argument. "\
-            " For example, ${RESET}${BG_WHITE}${BLACK} print_msg \"$1\" \"Content here.\"" "${RESET}"
+   printf "%s \n" "${BG_RED}${WHITE}${BOLD} ERROR: In addition to ${RESET}${BG_WHITE}${BLACK} $1 ${RESET}${BG_RED}${WHITE}${BOLD}, the string you would like  ${RESET}${BG_WHITE}${BLACK} ${FUNCNAME[0]} ${RESET}${BG_RED}${WHITE}${BOLD} to render is required as the second argument. "\
+      " For example, ${RESET}${BG_WHITE}${BLACK} print_msg \"$1\" \"Content here.\"" "${RESET}"
 }
 
 #
