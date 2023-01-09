@@ -38,7 +38,7 @@ FULL_NAME="$(finger "$USER_NAME" | awk '/Name:/ {print $4" "$5}')"
 # name was retrieved above.
 USER_SHELL="$(finger "$USER_NAME" | awk '/Shell:/ {print $4}')"
 
-VSCODE_EXTENSIONS=("editorconfig.editorconfig" "shengchen.vscode-checkstyle" "vscjava.vscode-java-pack" "VisualStudioExptTeam.vscodeintellicode" "redhat.java" "ms-vscode.makefile-tools" "EditorConfig.EditorConfig" "Tobiah.language-pde")
+VSCODE_EXTENSIONS=("editorconfig.editorconfig" "vscjava.vscode-java-pack" "VisualStudioExptTeam.vscodeintellicode" "redhat.java" "ms-vscode.makefile-tools" "EditorConfig.EditorConfig" "Tobiah.language-pde")
 
 export VSCODE_EXTENSIONS
 export ATOM_PACKAGES
