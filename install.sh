@@ -37,7 +37,7 @@ if [[ "$MAJOR_NUMBER_OF_CURRENT_OS" -lt "$MINIMUM_MAJOR_NUMBER_REQUIRED" ]]; the
 
    exit 1
 else
-   print_msg "warn" "This installation script was updated in July 2022 to work on macOS Monterey"
+   print_msg "warn" "This installation script was updated in Jan 2023 to work on macOS Monterey"
    print_msg "warn" "(12.1). It may work in versions as early as macOS Catalina ($MINIMUM_MAJOR_NUMBER_REQUIRED.$MINIMUM_MINOR_NUMBER_REQUIRED.$MINIMUM_PATCH_NUMBER_REQUIRED)."
    print_msg "warn" "However, versions older than that are likely not compatible with this"
    print_msg "warn" "script and are inadvisable to use."
